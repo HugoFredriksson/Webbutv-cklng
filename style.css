@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(83, 66, 66, 0.733); 
+    margin: 0; 
+}
+.container {  
+    width: 80%;  
+    margin: 0 auto;  
+}
+header {  
+    background:rgb(255, 255, 255); 
+    box-shadow: 1px 22px 100px 10px;
+}
+ul > li > a { 
+    color: rgb(0, 0, 0); 
+}
+nav {
+    list-style: none;
+    text-decoration: none;
+}
+nav ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+nav li , .dropdown {  
+    display: block;
+    margin-left: 110px; 
+    padding-top: 27.8px;  
+    padding-bottom: 10px; 
+    text-align: left; 
+}
+a:hover{
+    background-color: rgb(138, 43, 226);
+}
