@@ -10,8 +10,15 @@ header {
     background:rgb(255, 255, 255); 
     box-shadow: 1px 22px 100px 10px;
 }
-ul > li > a { 
-    color: rgb(0, 0, 0); 
+header::after {  /* Clearfix, utan att skriva detta så försvinner min header/nav till 0px */
+    content: '';  
+    display: table;   
+    clear: both;
+}
+li > a { 
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-transform: dotted;
 }
 nav {
     list-style: none;
@@ -19,16 +26,18 @@ nav {
 }
 nav ul { 
     margin: 0; 
-    padding: 0; 
     list-style: none; 
 }
-nav li , .dropdown {  
-    display: block;
-    margin-left: 110px; 
-    padding-top: 27.8px;  
-    padding-bottom: 10px; 
+nav li , .dropdown, .container {  
+    display: inline-block;
+    margin-left: 30px; 
     text-align: left; 
+    padding: 8px;
 }
-a:hover{
-    background-color: rgb(138, 43, 226);
+li:hover{
+    background-color: rgb(100, 100, 100);
+}
+.logo {
+    float: left; 
+    padding-left: 5px;
 }
