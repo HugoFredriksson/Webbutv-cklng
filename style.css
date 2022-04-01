@@ -1,32 +1,29 @@
 body {
-    background-color: rgba(83, 66, 66, 0.733); 
-    margin: 0; 
-}
-.container {  
-    width: 80%;  
-    margin: 0 auto;  
+    background-color: rgb(32, 30, 30); /* sätter bakgrunds färgen */
+    background-image: url(icon.png); /* bestämmer att bakgrunden kommer att uppstå av bilden som definerad här */ 
+    background-size: 8vh; /* Storlek på bilden som uppstår */
 }
 header {  
-    background:rgb(255, 255, 255); 
-    box-shadow: 1px 22px 100px 10px;
+    background:rgb(255, 255, 255); /* Bakgrundsfärgen på headern ändras färg */
 }
-header::after {  /* Clearfix, utan att skriva detta så försvinner min header/nav till 0px */
-    content: '';  
-    display: table;   
-    clear: both;
+li > a {  /* a tag i li tag */
+    color: rgb(0, 0, 0); /* svart färg */
+    font-size: 30px; /* text storlek blir ändrad */
 }
-li > a { 
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    text-transform: dotted;
-}
-nav {
-    list-style: none;
-    text-decoration: none;
+nav {   
+    list-style: none; /* Tar bort punkter som uppstår naturligt vid en lista */
+    text-decoration: none; /* tar bort dekoration vid texten */
 }
 nav ul { 
     margin: 0; 
     list-style: none; 
+}
+li:hover{
+    background-color: rgb(0, 0, 0);
+}
+.logo {
+    float: left; 
+    padding-left: 5px;
 }
 nav li , .dropdown, .container {  
     display: inline-block;
@@ -34,10 +31,7 @@ nav li , .dropdown, .container {
     text-align: left; 
     padding: 8px;
 }
-li:hover{
-    background-color: rgb(100, 100, 100);
-}
-.logo {
-    float: left; 
-    padding-left: 5px;
+.namn { /* Namn på class */
+    background-color: rgb(169, 169, 169); /* Bakgrundsfärg */
+    box-shadow: 10px 10px 60px 10px; /* Skugga */
 }
