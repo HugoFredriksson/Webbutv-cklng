@@ -1,20 +1,19 @@
 body {
-    margin: 0; 
+    margin: 0;
+    min-height: 100vh; 
 }
 .container {  
     width: 100%;  
-    margin: 0 auto;  
+    margin: 0; 
 }
 header::after {  /* Clearfix, utan att skriva detta så försvinner min header/nav till 0px */
     content: '';  
     display: table;   
     clear: both;
 }
-nav ul { 
-    margin: 0; 
-}
 .namn { /* Namn på class */
     position: fixed; /* Position på sida */
+    left: 10px;
     bottom: 15px; /* Botten på sidan */
     padding-left: 10px; /* Kudde på vänster sida */
     padding-right: 10px; /* Kudde på höger sida */
