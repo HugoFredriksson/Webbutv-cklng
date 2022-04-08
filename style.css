@@ -46,3 +46,6 @@ nav li , .dropdown, .container {
     background-color: rgb(169, 169, 169);
     max-width: 375px;
 }
+.container:nth-child(n + 2) {
+    background-color: red;
+}
