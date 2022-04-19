@@ -21,7 +21,10 @@ header::after {  /* Clearfix, utan att skriva detta så försvinner min header/n
     padding-left: 10px; /* Kudde på vänster sida */
     padding-right: 10px; /* Kudde på höger sida */
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1ddaad727643484c8070d1b25d8e7e8e887582e
 .grid-container { /* Namn på class*/
     display: grid; /* Visa det hära som en grid */
     grid-template-areas: /* Positioner för class i grid */
@@ -32,6 +35,7 @@ header::after {  /* Clearfix, utan att skriva detta så försvinner min header/n
     grid-gap: 10px; /* Mellan rum per cell */
     background-color: rgb(80, 74, 74); /* Bakgrundsfärg */
 }
+<<<<<<< HEAD
 
 .grid-container > div { /* Div inuti class grid-container */
     background-color: white; /* Bakgrundsfärg */
@@ -57,3 +61,18 @@ header::after {  /* Clearfix, utan att skriva detta så försvinner min header/n
 }
 
 
+=======
+.grid-container > div { /* Div inuti class grid-container */
+    background-color: white; /* Bakgrundsfärg */
+    text-align: center; /* Text i mitten */
+}
+.sak3 { /* Namn på class */ 
+    grid-area: Text1; /* Namn i grid-template-areas */ 
+}
+.sak4 { /* Namn på class */
+    grid-area: Text2; /* Namn i grid-template-areas */
+}
+.sak5 { /* Namn på class */
+    grid-area: Text3; /* Namn i grid-template-areas */ 
+}
+>>>>>>> a1ddaad727643484c8070d1b25d8e7e8e887582e
